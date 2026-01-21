@@ -1,7 +1,7 @@
 # Weather.Cat — Pixel Weather Web App
 
 **Weather.Cat** is a simple, interactive, and visually fun weather application built with **HTML, CSS, and JavaScript**.  
-It displays **real-time weather data**, including temperature, humidity, air quality index (AQI), tomorrow’s forecast, and personalized recommendations — all enhanced with a playful **pixel cat sprite** that reacts to the weather.
+It displays **real-time weather data**, including temperature, humidity, air quality index (AQI), tomorrow’s forecast, and personalized recommendations — all enhanced with a playful **pixel cat sprite**.
 
 ## Features
 
@@ -9,7 +9,7 @@ It displays **real-time weather data**, including temperature, humidity, air qua
 - Real-time temperature, humidity, and AQI display
 - Tomorrow's weather forecast
 - Weather-based recommendations (e.g., “Carry an umbrella” or “Stay hydrated”)
-- Pixel cat sprite adjusts appearance according to weather conditions
+- Animated pixel cat displayed with weather UI.
 - Fully responsive and lightweight
 
 ## Technologies Used
@@ -24,7 +24,7 @@ It displays **real-time weather data**, including temperature, humidity, air qua
 1. Enter a **city name** and click the **Get Weather** button.  
 2. The app fetches **current weather**, **forecast**, and **AQI** from OpenWeather API.  
 3. The interface updates dynamically with **temperature, humidity, AQI, tomorrow’s forecast**, and **recommendations**.  
-4. Pixel cat sprite changes appearance based on the weather (sunny, cloudy, rainy, etc.) to make the UI fun and interactive.
+4. Animated pixel cat displayed with weather UI..
 
  **Important:** The API key is **not included** in this repository for security reasons. You will need to use your own OpenWeather API key to run the project locally.
 
@@ -37,5 +37,6 @@ It displays **real-time weather data**, including temperature, humidity, air qua
 
 3. Open script.js and replace with your own API KEY:
     const OWM_API_KEY = "ENTER_YOUR_API_KEY_HERE";
+
 
 4. Open index.html in your browser.
