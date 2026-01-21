@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Weather.Cat — Pixel Weather</title>
+
+  <!-- Pixel-ish font -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <h1 class="title">Weather app</h1>
+
+    <div class="window">
+      <div class="window-header">
+        <span class="win-title">WEATHER.CAT</span>
+        <div class="win-buttons">
+          <span class="btn yellow"></span>
+          <span class="btn green"></span>
+          <span class="btn pink"></span>
+        </div>
+      </div>
+
+      <div class="window-body">
+        <div class="left-panel">
+          <div class="desc" id="description">It's a cloudy day...</div>
+
+          <div class="meta">
+            <div>Humidity: <span id="humidity">--%</span></div>
+            <div>AQI: <span id="aqi">--</span></div>
+          </div>
+
+          <div class="temp" id="temp">--°C</div>
+
+          <div class="tomorrow">Tomorrow: <span id="tomorrow">--</span></div>
+
+          <div class="recommend">Recommendation:<br><span id="recommend">--</span></div>
+        </div>
+
+        <div class="right-panel">
+          <!-- pixel background area -->
+          <div class="pixel-bg" id="pixelBg">
+            <!-- placeholder pixel cat sprite - replace with your generated sprite -->
+            <img id="catSprite" src="assets/cat_sprite.gif" alt="pixel cat" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <input id="cityInput" placeholder="Enter city (e.g. London)" />
+      <button id="btnGet">Get Weather</button>
+    </div>
+
+    <footer class="credit">Made with ♥</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
